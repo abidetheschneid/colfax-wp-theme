@@ -1,0 +1,153 @@
+/* CUSTOM FONTS
+==================================================================================================== */
+
+@font-face {
+    font-family: 'CooperHewitt';
+    src: url('../fonts/cooperhewitt-thin-webfont.eot');
+    src: url('../fonts/cooperhewitt-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cooperhewitt-thin-webfont.woff2') format('woff2'),
+         url('../fonts/cooperhewitt-thin-webfont.woff') format('woff'),
+         url('../fonts/cooperhewitt-thin-webfont.ttf') format('truetype'),
+         url('../fonts/cooperhewitt-thin-webfont.svg#cooper_hewittthin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CooperHewitt';
+    src: url('../fonts/cooperhewitt-light-webfont.eot');
+    src: url('../fonts/cooperhewitt-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cooperhewitt-light-webfont.woff2') format('woff2'),
+         url('../fonts/cooperhewitt-light-webfont.woff') format('woff'),
+         url('../fonts/cooperhewitt-light-webfont.ttf') format('truetype'),
+         url('../fonts/cooperhewitt-light-webfont.svg#cooper_hewittlight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CooperHewitt';
+    src: url('../fonts/cooperhewitt-book-webfont.eot');
+    src: url('../fonts/cooperhewitt-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cooperhewitt-book-webfont.woff2') format('woff2'),
+         url('../fonts/cooperhewitt-book-webfont.woff') format('woff'),
+         url('../fonts/cooperhewitt-book-webfont.ttf') format('truetype'),
+         url('../fonts/cooperhewitt-book-webfont.svg#cooper_hewittbook') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'CooperHewitt';
+    src: url('../fonts/cooperhewitt-medium-webfont.eot');
+    src: url('../fonts/cooperhewitt-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cooperhewitt-medium-webfont.woff2') format('woff2'),
+         url('../fonts/cooperhewitt-medium-webfont.woff') format('woff'),
+         url('../fonts/cooperhewitt-medium-webfont.ttf') format('truetype'),
+         url('../fonts/cooperhewitt-medium-webfont.svg#cooper_hewittmedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CooperHewitt';
+    src: url('../fonts/cooperhewitt-semibold-webfont.eot');
+    src: url('../fonts/cooperhewitt-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cooperhewitt-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/cooperhewitt-semibold-webfont.woff') format('woff'),
+         url('../fonts/cooperhewitt-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/cooperhewitt-semibold-webfont.svg#cooper_hewittsemibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CooperHewitt';
+    src: url('../fonts/cooperhewitt-bold-webfont.eot');
+    src: url('../fonts/cooperhewitt-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cooperhewitt-bold-webfont.woff2') format('woff2'),
+         url('../fonts/cooperhewitt-bold-webfont.woff') format('woff'),
+         url('../fonts/cooperhewitt-bold-webfont.ttf') format('truetype'),
+         url('../fonts/cooperhewitt-bold-webfont.svg#cooper_hewittbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CooperHewitt';
+    src: url('../fonts/cooperhewitt-heavy-webfont.eot');
+    src: url('../fonts/cooperhewitt-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cooperhewitt-heavy-webfont.woff2') format('woff2'),
+         url('../fonts/cooperhewitt-heavy-webfont.woff') format('woff'),
+         url('../fonts/cooperhewitt-heavy-webfont.ttf') format('truetype'),
+         url('../fonts/cooperhewitt-heavy-webfont.svg#cooper_hewittheavy') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Thin-webfont.eot');
+    src: url('../fonts/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Thin-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Thin-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Thin-webfont.svg#robotothin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Light-webfont.eot');
+    src: url('../fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Light-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Light-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular-webfont.eot');
+    src: url('../fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium-webfont.eot');
+    src: url('../fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Medium-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Medium-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Medium-webfont.svg#robotomedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold-webfont.eot');
+    src: url('../fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Bold-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Black-webfont.eot');
+    src: url('../fonts/Roboto-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Black-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Black-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Black-webfont.svg#robotoblack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}

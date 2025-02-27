@@ -1,0 +1,117 @@
+/* NAV ESSENTIAL STYLES
+================================================== */
+
+.nav, .nav * {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav {
+	line-height: normal;
+	z-index: 100;
+}
+
+.nav li:hover {
+	visibility: inherit; /* fixes IE7 'sticky bug' */
+}
+
+.nav a {
+	display: block;
+	position: relative;
+}
+
+.nav li:hover ul, .nav li.sfHover ul {
+	left: 0px;
+	top: 47px; 
+	z-index: 98;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
+.nav li:hover, .nav li.sfHover a, .nav li.sfHover a:visited, .nav a:focus, .nav a:hover, .nav a:active {
+	outline: 0;
+}
+
+
+/* NAV ELEMENTS
+================================================== */
+
+.nav ul {
+	position: absolute;
+	top: -999em;
+}
+
+.nav li {
+	float: left;
+	position: relative;
+}
+
+.nav li:hover a {
+	text-decoration: none;
+	background: #444444;
+	color: #fff;
+	z-index: 99;
+}
+
+.nav li:hover ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav li a, .nav li a:visited  {
+	padding: 15px 10px;
+	margin: 0px;
+	line-height: 1;
+	font-family: 'CooperHewitt', Arial, sans-serif;
+	font-weight: 700;
+	font-size: 1.0625em;
+	text-transform: uppercase;
+	display: block;
+	color: #fff;
+	transition: all .3s ease-in-out; 
+    -moz-transition: all .3s ease-in-out; 
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.nav li a:hover {
+	text-decoration: none;
+	background: #444444;
+	color: #fff;
+}
+
+.nav li ul {
+	width: 270px;
+	margin: 0px;
+	padding: 0px;
+	background: #444444;
+}
+
+.nav li ul li {
+	float: none;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav li ul li a, .nav li ul li a:visited {
+	display: block;
+	font-size: 1em;
+	font-family: 'Roboto', Arial, sans-serif;
+	text-transform: none;
+	padding: 8px 12px;
+	color: #fff;
+	text-decoration: none;
+	transition: all .5s ease-in-out; 
+    -moz-transition: all .5s ease-in-out; 
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.nav li ul li a:hover {
+	background: #666666;
+}
+
+.nav li:hover ul li a {
+	border-bottom: 0px;
+}

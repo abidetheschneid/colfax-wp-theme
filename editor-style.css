@@ -1,0 +1,28 @@
+img.full-width {
+	float: none;
+	clear: both;
+	max-width: 100%;
+}
+
+p.disclaimer {
+	font-size: 87.5%;
+	font-style: italic;
+}
+
+h2 {
+	font-family: 'CooperHewitt', Arial, sans-serif;
+	font-size: 1.8125em;
+	color: #0088c4;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin: 32px 0px 8px 0px;
+}
+
+h3 {
+	font-family: 'CooperHewitt', Arial, sans-serif;
+	font-size: 1.375em;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin: 16px 0px 8px 0px;
+}
