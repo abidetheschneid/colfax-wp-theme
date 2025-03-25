@@ -1,7 +1,12 @@
 <?php
-/*
- * Footer Include Template
- */
+
+/**
+ *
+ * Sitewide Footer Template
+ * @package runcolfax
+ *
+ **/
+
 ?>
 
 <div id="footer-wrap">
@@ -24,6 +29,8 @@
 <div id="mobilenav">
 	<?php wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => '')); ?>
 </div>
+
+<?php wp_footer(); ?>
 
 </body>
 
