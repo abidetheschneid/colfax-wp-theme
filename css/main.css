@@ -116,7 +116,7 @@ a:hover {
 }
 
 #content ul li {
-	background: url(img/list-icon.png) 0px 7px no-repeat;
+	background: url(../img/list-icon.png) 0px 7px no-repeat;
     padding: 0px 0px 2px 20px;
 }
 
@@ -156,7 +156,7 @@ a:hover {
 }
 
 #content blockquote {
-	background: url(img/blockquote-bg.png) 0px 0px no-repeat;
+	background: url(../img/blockquote-bg.png) 0px 0px no-repeat;
 	padding: 0px 0px 0px 110px;
 	margin: 10px 0px 25px 0px;
 	font-style: italic;
@@ -232,7 +232,7 @@ a:hover {
 @media only screen and (max-width: 767px) {
 
 #content blockquote {
-	background: url(img/blockquote-bg.png) top left no-repeat;
+	background: url(../img/blockquote-bg.png) top left no-repeat;
 	padding: 110px 0px 0px 0px;
 }
 
@@ -390,7 +390,7 @@ a:hover {
 	left: auto;
 	width: 20px;
 	height: 20px;
-	background: url(img/search-icon.png) center no-repeat;
+	background: url(../img/search-icon.png) center no-repeat;
 	background-size: 16px 16px;
 	text-indent: 999px;
 	overflow: hidden;
@@ -424,7 +424,7 @@ a:hover {
 	float: left;
 	width: 44px;
 	height: 44px;
-	background: url(img/mobilenav-bg.png);
+	background: url(../img/mobilenav-bg.png);
 	text-indent: -9999px;
 }
 
@@ -433,7 +433,7 @@ a:hover {
 	float: right;
 	width: 44px;
 	height: 44px;
-	background: url(img/mobilesearch-bg.png);
+	background: url(../img/mobilesearch-bg.png);
 	text-indent: -9999px;
 }
 
@@ -1102,39 +1102,39 @@ a:hover {
 
 #title-wrap {
 	min-height: 150px;
-	background: #024c7a url(img/title-bg.png) right center no-repeat;
+	background: #024c7a url(../img/title-bg.png) right center no-repeat;
 }
 
 #title-wrap.blue {
-	background: #0088a9 url(img/title-bg.png) right center no-repeat;
+	background: #0088a9 url(../img/title-bg.png) right center no-repeat;
 }
 
 #title-wrap.dblue {
-	background: #024c7a url(img/title-bg.png) right center no-repeat;
+	background: #024c7a url(../img/title-bg.png) right center no-repeat;
 }
 
 #title-wrap.purple {
-	background: #611e58 url(img/title-bg.png) right center no-repeat;
+	background: #611e58 url(../img/title-bg.png) right center no-repeat;
 }
 
 #title-wrap.green {
-	background: #a1ba2f url(img/title-bg.png) right center no-repeat;
+	background: #a1ba2f url(../img/title-bg.png) right center no-repeat;
 }
 
 #title-wrap.red {
-	background: #9d223e url(img/title-dark-bg.png) right center no-repeat;
+	background: #9d223e url(../img/title-dark-bg.png) right center no-repeat;
 }
 
 #title-wrap.orange {
-	background: #faa61a url(img/title-bg.png) right center no-repeat;
+	background: #faa61a url(../img/title-bg.png) right center no-repeat;
 }
 
 #title-wrap.yellow {
-	background: #e0e31c url(img/title-bg.png) right center no-repeat;
+	background: #e0e31c url(../img/title-bg.png) right center no-repeat;
 }
 
 #title-wrap.gray {
-	background: #6d6f71 url(img/title-bg.png) right center no-repeat;
+	background: #6d6f71 url(../img/title-bg.png) right center no-repeat;
 }
 
 #title {
